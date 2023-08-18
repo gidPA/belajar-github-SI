@@ -1,0 +1,15 @@
+Git adalah software version control system yang memungkinkan pengembang perangkat lunak untuk merekam proses pengembangan perangkat lunak. Sehingga, apabila seorang developer merasa telah membuat suatu perubahan yang tidak sesuai harapan, ia dapat kembali ke versi-versi sebelumnya dengan mudah.
+
+Istilah-istilah yang digunakan dalam Git:
+1. Repository: folder yang berisi kode sumber. Repository ini umumnya terletak secara lokal (di perangkat developer), namun juga bisa diletakkan secara remote dalam suatu jaringan lokal ataupun melalui repository hosting service, seperti Github dan GitLab.
+2. Commit: rekam jejak perubahan pada kode sumber
+3. Hash: kode unik yang dibuat ketika sebuah commit dilakukan
+4. Checkout: kegiatan perpindahan commit atau branch
+5. Branch: Cabang/aliran versi bebas dari sebuah commit
+6. Merge: Penggabungan branch menjadi satu versi yang disetujui
+7. Remote: sumber repository
+8. Clone: Penggandaan/pengambilan repository dari sebuat remote
+9. Push: Pengiriman sebuah commit ke suatu repository
+10. Pull: Pengambilan sebuah commit dari suatu repository
+
+Git memiliki peran utama dalam pengembangan perangkat lunak dengan metodologi CI/CD (Continuous Integration/Continuous Delivery). Dalam praktik CI, kode sumber software mengalami penyatuan (merge) dari berbagai push dan mengalami pengujian secara otomatis dan cepat. Praktik CD merpakan praktik pembangunan (build) perangkat lunak secara terotomatisasi sehingga rilis perangkat lunak bisa dilakukan lebih cepat dan lebih sering.
